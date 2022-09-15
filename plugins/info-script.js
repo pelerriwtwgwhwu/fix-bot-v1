@@ -2,11 +2,11 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let str = `*https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow*
+let str = `*https://youtu.be/4XxtPJkBUT4*
 
 Pengen mentahan nya ?
-Nih ada santai bro....
-https://github.com/ImYanXiao/Elaina-MultiDevice
+Pc Owner nanti dibicarakan 
+
 
 Pengen yang udah di recode oleh owner?
 Script bot ini dijual bila kalian mau bisa chat owner
@@ -17,8 +17,8 @@ let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Thankyou','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/_ctzhid",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'WH-MODS-DEV-V1 MultiDevice',
+    description: "https://youtu.be/4XxtPJkBUT4", 
+    title: '【ѕιмρℓє ωнαтѕαρρ вσт】',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
