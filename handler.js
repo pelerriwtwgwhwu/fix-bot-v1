@@ -699,16 +699,16 @@ export async function participantsUpdate({ id, participants, action }) {
                                 membercount: groupMetadata.participants.length
                             })
     conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'WHMODSDEV', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://youtu.be/4XxtPJkBUT4",
+    mediaUrl: "https://instagram.com/_ctzhid",
     mediaType: 2, 
-    description: "https://youtu.be/4XxtPJkBUT4", 
+    description: "https://instagram.com/_ctzhid", 
     title: '【ѕιмρℓє ωнαтѕαρρ вσт】',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: sgc
      }}
   })
-/*this.sendHydrated(id, text, '➞' + await this.getName(id), await (await fetch((action == 'add' ? wel : lea))).buffer(), sgc, (action == 'add' ? '💌 WELCOME' : '🐾 BYE'), user.split`@`[0], '🌹 USER', [
+*this.sendHydrated(id, text, '➞' + await this.getName(id), await (await fetch((action == 'add' ? wel : lea))).buffer(), sgc, (action == 'add' ? '💌 WELCOME' : '🐾 BYE'), user.split`@`[0], '🌹 USER', [
       ['ᴍᴇɴᴜ', '/menu'],
       [(action == 'add' ? '\n\nYAELAH BEBAN GROUP NAMBAH 1 :(' : '\n\nBYE BEBAN! :)'), '...'],
       [null, null]
