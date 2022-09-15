@@ -699,9 +699,9 @@ export async function participantsUpdate({ id, participants, action }) {
                                 membercount: groupMetadata.participants.length
                             })
     conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'WHMODSDEV', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://chat.whatsapp.com/HTIQAjQusZW11uVIXqQTmr",
+    mediaUrl: "images.jpg",
     mediaType: 2, 
-    description: "https://chat.whatsapp.com/HTIQAjQusZW11uVIXqQTmr", 
+    description: "images.jpg", 
     title: '【ѕιмρℓє ωнαтѕαρρ вσт】',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
