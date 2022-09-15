@@ -318,19 +318,19 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
                     welcome: true,
-                    detect: false,
+                    detect: true,
                     sWelcome: '',
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: false,
+                    antiLink: true,
                     viewonce: false,
                     antiToxic: true,
                     simi: false,
                     expired: 0,
                     nsfw: false,
-                    premnsfw: false,
+                    premnsfw: true,
                 }
             let settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
@@ -687,22 +687,22 @@ export async function participantsUpdate({ id, participants, action }) {
                         let wel = API('males', '/welcome2', {
                                 profile: pp,
                                 username: await this.getName(user),
-                                background: 'https://telegra.ph/file/0b814069d86ee9a022da5.jpg',
+                                background: 'https://telegra.ph/file/9a689fdaa747e4a3325e8.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
                             let lea = API('males', '/goodbye3', {
                                 profile: pp,
                                 username: await this.getName(user),
-                                background: 'https://telegra.ph/file/0db212539fe8a014017e3.jpg',
+                                background: 'https://telegra.ph/file/9a689fdaa747e4a3325e8.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
     conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'WHMODSDEV', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow",
+    mediaUrl: "https://youtu.be/4XxtPJkBUT4",
     mediaType: 2, 
-    description: "https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow", 
-    title: 'WH-MODS-BOT-V1-MultiDevice',
+    description: "https://youtu.be/4XxtPJkBUT4", 
+    title: '【ѕιмρℓє ωнαтѕαρρ вσт】',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: sgc
