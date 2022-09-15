@@ -11,32 +11,32 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
+• Owner menerima save contact sung pc cuy
 • Owner berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
 • Owner Hanya merespon yang berkaitan dengan BOT
-• No Telp`
+• No Telp gw full sibuk cuy`
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${ htjava }  *💌 Nama* : FARUQFARUQ 
-${  htjava  }   *✉️ Nama RL* : HAMBA ALLAH
+${htjava}*💌 Nama* : FARUQ OFC-OWN
+${htjava}*✉️ Nama RL* : HAMBA ALLAH
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : 18
-${htjava} *🧮 Kelas* : SUDAH TAMAT
+${htjava} *🎨 Umur* : 16otw17
+${htjava} *🧮 Kelas* : BOCIL SMA
 ${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP "MODDER WHATSAPP"
 ${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Indo, Depok, Jawa Barat
+${htjava} *🗺️ Tinggal* : Indo, Bwi ,Jatim sokin ngab
 ${htjava} *❤️ Waifu* : -
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 •·––––––––––––––––––––––––––·•
 `
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = 'ketik .owner ae gampang'
 const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
