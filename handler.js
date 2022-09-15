@@ -687,21 +687,21 @@ export async function participantsUpdate({ id, participants, action }) {
                         let wel = API('males', '/welcome2', {
                                 profile: pp,
                                 username: await this.getName(user),
-                                background: 'https://telegra.ph/file/9a689fdaa747e4a3325e8.jpg',
+                                background: 'https://telegra.ph/file/2d06f0936842064f6b3bb.png',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
                             let lea = API('males', '/goodbye3', {
                                 profile: pp,
                                 username: await this.getName(user),
-                                background: 'https://telegra.ph/file/9a689fdaa747e4a3325e8.jpg',
+                                background: 'https://telegra.ph/file/2d06f0936842064f6b3bb.png',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
     conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'WHMODSDEV', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "images.jpg",
+    mediaUrl: "https://youtu.be/4XxtPJkBUT4",
     mediaType: 2, 
-    description: "images.jpg", 
+    description: "https://youtu.be/4XxtPJkBUT4", 
     title: '【ѕιмρℓє ωнαтѕαρρ вσт】',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
