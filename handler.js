@@ -685,14 +685,14 @@ export async function participantsUpdate({ id, participants, action }) {
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'unknow') :
                             (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', `${this.getName(user)}`)
                         let wel = API('males', '/welcome2', {
-                                profile: pp,
+                                profile: https://telegra.ph/file/c5db03ab5dd8ca05ec9c5.jpg',
                                 username: await this.getName(user),
                                 background: 'https://telegra.ph/file/c5db03ab5dd8ca05ec9c5.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
                             let lea = API('males', '/goodbye3', {
-                                profile: pp,
+                                profile: https://telegra.ph/file/151605103d688421b2a1f.jpg,
                                 username: await this.getName(user),
                                 background: 'https://telegra.ph/file/151605103d688421b2a1f.jpg',
                                 groupname: await this.getName(id),
